@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Poppins';
+    scroll-behavior: smooth;
 }
 
 .inner_wrapper{
@@ -73,11 +74,15 @@
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 70vh;  
     color: #FFF;
-    padding: 80px 15px 0 15px;
+    padding: 100px 15px 0 15px;
+}
+
+.header_info{
+    max-width: 550px;
 }
 
 .header_title{
@@ -432,7 +437,7 @@
         display: flex;
         text-align: center;
         flex-direction: column-reverse;
-        margin-top: 200px;
+        margin-top: 250px;
     }
 
     .my_image{
@@ -510,6 +515,6 @@
     }
 
     .header{
-        margin-top: 270px;
+        margin-top: 370px;
     }
 }
