@@ -6,20 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./image/portfolio (1).png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="mode">
     <title>My portfolio</title>
 </head>
 
 <body>
     <div class="navbar_wrapper">
-        <div class="navbar" data-aos="fade-down" data-aos-duration="3000">
+        <div class="navbar">
             <div class="navbar_title">
-                <img src="./image/nav_title_logo.png" alt="logo">
-                <h1>
-                    <a href="#header">Portfolio</a>
-                </h1>
+                <a href="#header"><img src="./image/light logo.png" alt="logo" id="logo"></a>
             </div>
             <div class="nav">
                 <ul>
@@ -28,19 +27,23 @@
                     <li><a href="#about">About me</a></li>
                 </ul>
             </div>
-            <div class="enternet">
-                <a href="https://github.com/Payziqulov" target="_blank"><img src="./image/mark-github-24.png"
-                        alt="github"></a>
-                <a href="https://www.linkedin.com/in/muhammadjon-payziqulov-895097274/" target="_blank"><img
-                        src="./image/linkedin.png" alt="linkedin" style="width: 32px;height: 32px;"></a>
-                <a href="https://t.me/payziqulov_7"><img src="./image/telegram.png" alt="telegram"
-                        style="width: 32px; height: 32px;"></a>
+            <div class="network">
+                <div class="enternet">
+                    <a href="https://github.com/Payziqulov" target="_blank"><i class="fa-brands fa-github"
+                            style="font-size: 30px;"></i> <span>Github</span></a>
+                    <a href="https://www.linkedin.com/in/muhammadjon-payziqulov-895097274/" target="_blank"><img
+                            src="./image/linkedin.png" alt="linkedin" style="width: 32px;height: 32px;"><span>Linkedin</span></a>
+                    <a href="https://t.me/payziqulov_7"><i class="fa-brands fa-telegram"
+                            style="font-size: 30px;"></i><span>Telegram</span></a>
+                </div>
+                <i id="btn" class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-bars" id="bars"></i>
             </div>
         </div>
     </div>
     <div class="inner_wrapper" id="header">
         <div class="header">
-            <div class="header_info" data-aos="fade-right" data-aos-duration="3000">
+            <div class="header_info">
                 <div class="header_title">
                     <h2>
                         Hello My friend👋🏻
@@ -58,7 +61,7 @@
                     <a href="https://forms.gle/YTSmYNTiQBPRMLsN9" target="_blank"><button>Place order</button></a>
                 </div>
             </div>
-            <div class="my_image" data-aos="fade-left" data-aos-duration="3000">
+            <div class="my_image">
                 <img src="./image/my image.jpg" alt="my image">
             </div>
         </div>
@@ -265,7 +268,8 @@
                     </h3>
                     <img src="./image/line.png" alt="line">
                     <p>
-                        This project tells about DSI company services, its products, when the company was founded and company shares
+                        This project tells about DSI company services, its products, when the company was founded and
+                        company shares
                     </p>
                     <div class="main_card_button">
                         <a href="https://dsiii.netlify.app" target="_blank"><button>Look it up</button></a>
@@ -280,7 +284,8 @@
                     </h3>
                     <img src="./image/line.png" alt="line">
                     <p>
-                        In this project you can order the food you want online and use the delivery service of your choice
+                        In this project you can order the food you want online and use the delivery service of your
+                        choice
                     </p>
                     <div class="main_card_button">
                         <a href="https://olonge.netlify.app" target="_blank"><button>Look it up</button></a>
@@ -295,7 +300,8 @@
                     </h3>
                     <img src="./image/line.png" alt="line">
                     <p>
-                        In this project, you can order the clothes you want online, get more information about the clothes and use the delivery service of your choice
+                        In this project, you can order the clothes you want online, get more information about the
+                        clothes and use the delivery service of your choice
                     </p>
                     <div class="main_card_button">
                         <a href="https://pulstarr.netlify.app" target="_blank"><button>Look it up</button></a>
@@ -310,7 +316,8 @@
                     </h3>
                     <img src="./image/line.png" alt="line">
                     <p>
-                        In this project, you can see the work of designers, their projects, their brands and contact them
+                        In this project, you can see the work of designers, their projects, their brands and contact
+                        them
                     </p>
                     <div class="main_card_button">
                         <a href="https://startupp1.netlify.app" target="_blank"><button>Look it up</button></a>
@@ -329,6 +336,64 @@
                     </p>
                     <div class="main_card_button">
                         <a href="https://ideal-house.netlify.app/" target="_blank"><button>Look it up</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inner_wrapper">
+        <div class="main">
+            <div class="main_title">
+                <h3>
+                    Projects with JavaScript
+                </h3>
+            </div>
+            <div class="main_cards">
+                <div class="main_card">
+                    <div class="project">
+                        <img src="./image/counter.png" alt="counter">
+                    </div>
+                    <h3>
+                        COUNTER
+                    </h3>
+                    <img src="./image/line.png" alt="line">
+                    <p>
+                        In this project, you can order the clothes you want online, get more information about the
+                        clothes and use the delivery service of your choice
+                    </p>
+                    <div class="main_card_button">
+                        <a href="https://counterdev11.netlify.app" target="_blank"><button>Look it up</button></a>
+                    </div>
+                </div>
+                <div class="main_card">
+                    <div class="project">
+                        <img src="./image/random.png" alt="random">
+                    </div>
+                    <h3>
+                        RANDOM
+                    </h3>
+                    <img src="./image/line.png" alt="line">
+                    <p>
+                        In this project, you can see the work of designers, their projects, their brands and contact
+                        them
+                    </p>
+                    <div class="main_card_button">
+                        <a href="https://random7.netlify.app" target="_blank"><button>Look it up</button></a>
+                    </div>
+                </div>
+                <div class="main_card">
+                    <div class="project">
+                        <img src="./image/crud.png" alt="crud">
+                    </div>
+                    <h3>
+                        CRUD
+                    </h3>
+                    <img src="./image/line.png" alt="line">
+                    <p>
+                        In this project, you can order and make your favorite hairstyle without going to the hairdresser
+                    </p>
+                    <div class="main_card_button">
+                        <a href="https://notes111.netlify.app" target="_blank"><button>Look it up</button></a>
                     </div>
                 </div>
             </div>
@@ -353,19 +418,15 @@
                 </div>
             </div>
             <div class="footer_enternet">
-                <a href="https://github.com/Payziqulov" target="_blank"><img src="./image/mark-github-24.png"
-                        alt="github"></a>
+                <a href="https://github.com/Payziqulov" target="_blank"><i class="fa-brands fa-github"
+                        style="font-size: 30px;"></i></a>
                 <a href="https://www.linkedin.com/in/muhammadjon-payziqulov-895097274/" target="_blank"><img
                         src="./image/linkedin.png" alt="linkedin" style="width: 32px;height: 32px;"></a>
-                <a href="https://t.me/payziqulov_7"><img src="./image/telegram.png" alt="telegram"
-                        style="width: 32px; height: 32px;"></a>
+                <a href="https://t.me/payziqulov_7"><i class="fa-brands fa-telegram" style="font-size: 30px;"></i></a>
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
